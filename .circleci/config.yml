@@ -15,7 +15,6 @@ jobs:
           name: install dependencies
           command: |
             pipenv shell
-            pip install -r requirements.txt
       # Step 3: run linter and tests
       - run:
           name: run tests
